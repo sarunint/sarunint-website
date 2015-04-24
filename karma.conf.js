@@ -16,7 +16,8 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       'spec/**/*.{coffee,js,ts}',
-      'source/javascripts/*.{coffee,js,ts}'
+      'source/javascripts/*.{coffee,js}',
+      'source/typescripts/*.ts'
     ],
 
 
