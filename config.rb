@@ -35,15 +35,8 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-activate :typescript,
-  typescript_dir: 'typescripts',
-  js_lib_dir: 'dummy',
-  target: 'ES5',
-  no_implicit_any: true
-
 # Reload the browser automatically whenever files change
 configure :development do
-  ignore 'source/typescripts/*'
   activate :livereload
 end
 
@@ -76,5 +69,4 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
-  ignore 'typescripts/*'
 end
