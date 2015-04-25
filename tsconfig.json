@@ -6,7 +6,5 @@
     "preserveConstEnums": true
   },
   "files": [
-    "./source/javascripts/test1.ts",
-    "./source/javascripts/test2.ts"
   ]
 }
