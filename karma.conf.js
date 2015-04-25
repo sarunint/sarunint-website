@@ -17,7 +17,6 @@ module.exports = function(config) {
     files: [
       'spec/**/*.{coffee,js,ts}',
       'source/javascripts/*.{coffee,js}',
-      'source/typescripts/*.ts'
     ],
 
 
