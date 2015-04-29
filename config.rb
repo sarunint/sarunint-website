@@ -71,4 +71,5 @@ configure :build do
   # set :http_prefix, "/Content/images/"
   ignore 'javascripts/*.ts'
   ignore 'javascripts/**/*.ts'
+  ignore 'typings/*'
 end
