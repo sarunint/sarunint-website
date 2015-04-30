@@ -16,4 +16,5 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap-sass'
   gem 'rails-assets-angular', '1.3.15'
+  gem 'rails-assets-angular-resource'
 end
