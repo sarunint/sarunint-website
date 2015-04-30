@@ -2,7 +2,7 @@
 
 module sarunint_website {
     angular
-        .module('sarunint-website')
+        .module('sarunint-website.widgets')
         .directive('siTopBanner', SiTopBanner);
     function SiTopBanner(): {} {
        return {

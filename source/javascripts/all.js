@@ -5,13 +5,19 @@
 var sarunint_website;
 (function (sarunint_website) {
     angular
-        .module('sarunint-website', []);
+        .module('sarunint-website', ['sarunint-website.widgets']);
 })(sarunint_website || (sarunint_website = {}));
 /// <reference path="../../typings/tsd.d.ts" />
 var sarunint_website;
 (function (sarunint_website) {
     angular
-        .module('sarunint-website')
+        .module('sarunint-website.widgets', []);
+})(sarunint_website || (sarunint_website = {}));
+/// <reference path="../../typings/tsd.d.ts" />
+var sarunint_website;
+(function (sarunint_website) {
+    angular
+        .module('sarunint-website.widgets')
         .directive('siTopBanner', SiTopBanner);
     function SiTopBanner() {
         return {
@@ -21,5 +27,6 @@ var sarunint_website;
     }
 })(sarunint_website || (sarunint_website = {}));
 /// <reference path="../typings/tsd.d.ts" />
-/// <reference path="app.ts" />
-/// <reference path="widgets/topBanner.ts" /> 
+/// <reference path="sarunint-website.ts" />
+/// <reference path="widgets/sarunint-website.widgets.ts" />
+/// <reference path="widgets/sarunint-website.widgets.topBanner.ts" />

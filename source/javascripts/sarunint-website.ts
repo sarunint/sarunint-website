@@ -5,5 +5,5 @@
 
 module sarunint_website {
     angular
-        .module('sarunint-website', []);
+        .module('sarunint-website', ['sarunint-website.widgets']);
 }
