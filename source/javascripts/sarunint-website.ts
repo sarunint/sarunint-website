@@ -4,6 +4,6 @@
 /// <reference path="../typings/tsd.d.ts" />
 
 module sarunint_website {
-    angular
-        .module('sarunint-website', ['sarunint-website.widgets']);
+  angular
+    .module('sarunint-website', ['sarunint-website.widgets', 'sarunint-website.api']);
 }

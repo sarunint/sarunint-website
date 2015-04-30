@@ -2,5 +2,5 @@
 
 module sarunint_website {
   angular
-    .module('sarunint-website.widgets', []);
+    .module('sarunint-website.api', []);
 }
