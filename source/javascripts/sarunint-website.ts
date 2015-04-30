@@ -1,7 +1,7 @@
 //= require angular
 //= require jquery
 //= require bootstrap-sass
-/// <reference path="../typings/tsd.d.ts" />
+/// <reference path="all.ts" />
 
 module sarunint_website {
   angular
