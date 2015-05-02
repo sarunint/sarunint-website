@@ -4,3 +4,4 @@
 /// <reference path="widgets/topBanner.directive.ts" />
 /// <reference path="api/api.module.ts" />
 /// <reference path="config/config.module.ts" />
+/// <reference path="config/apiUrl.value.ts" />
